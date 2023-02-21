@@ -37,11 +37,11 @@
 }
 
 .logo {
-    margin: 2px 19px 0 81px;
+    margin: 20px 190px 0 81px;
 }
 
 .logo img {
-    width: 50px;
+    width: 100px;
     height: auto;
     font-size: 1em;
     display: flex;
