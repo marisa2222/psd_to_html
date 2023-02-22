@@ -1,0 +1,33 @@
+/*----------- VITALI "TEAM" START -------------------------*/
+
+#team-section{
+    background-image: url("images/bgk-header.png");
+    color: white;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+}
+
+.team-portraits{
+    display: flex;
+    justify-content: center;   
+}
+
+.team-portrait{
+    margin: 1%;
+    border: solid 1px;
+}
+
+#hiring p{
+    color: rgb(38, 226, 226)  
+}
+
+#hiring{
+    margin:auto;
+    border: solid 1px rgb(38, 226, 226);
+    width:fit-content;
+    padding: 0% 1% 0% 1%;
+}
+
+/*----------- VITALI "TEAM" END -------------------------*/
