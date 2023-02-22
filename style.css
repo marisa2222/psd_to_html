@@ -1,24 +1,27 @@
-.grid-container {
+
+#expertise-section{
+    height: 30%;
+    width: 100%;
+    overflow: auto;
+}
+
+.grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 0.20fr);
+    grid-template-rows: repeat(2, 0.20fr);
     justify-content: center;
     align-items: center;
     grid-gap: 0;
     margin-top: 2em;
-    margin-left:15%;
-    margin-right: 20%;
     min-width: 75vw;
-  
-   
-
-    
+    min-height: 300px;
 }
   
 .item {
     border: 1px solid rgba(126, 125, 125, 0.3);
     height: 100%;
     width: 100%;
+    align-content: center;
 
   }
 .expertise-tittle {
@@ -26,8 +29,9 @@
   }
 
 .expertisse-i {
-  padding: 10px 43%;
-
+  padding-top:10px ;
+  padding-bottom: 0px;
+  padding-left:43%;
 }
 .expertise-h{
     text-align: center;
