@@ -1,3 +1,74 @@
+
+/*----------- LAZAR START -------------------------*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 0;
+    margin-top: 2em;
+    margin-left:15%;
+    margin-right: 20%;
+    min-width: 75vw;
+    
+}
+  
+.grid-container .item {
+    border: 1px solid rgba(126, 125, 125, 0.3);
+    height: 100%;
+    width: 100%;
+
+  }
+.expertise-tittle {
+    text-align: center;
+  }
+
+.expertisse-i {
+  padding: 10px 43%;
+
+}
+.expertise-h{
+    text-align: center;
+}
+.expertise-p{
+    text-align: center;
+    color:#858585;
+}
+.grid-container .item1 {
+    border-top: none;
+    border-left: none;
+   
+}
+.grid-container .item2 {
+    
+    border-top: none;
+    border-left: none;
+
+   
+}
+.grid-container .item3 {
+    border-top: none;
+    border-right: none;
+
+}
+.grid-container .item4 {
+    border-bottom: none;
+    border-left: none;
+
+}
+.grid-container .item5 {
+
+    border-bottom: none;
+}
+.item6 {
+    border-bottom: none;
+    border-right: none;
+}
+
+/*----------- LAZAR END -------------------------*/
+
 /*----------- VITALI "TEAM" START -------------------------*/
 
 #team-section{
@@ -31,3 +102,5 @@
 }
 
 /*----------- VITALI "TEAM" END -------------------------*/
+    
+
