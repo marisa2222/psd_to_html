@@ -1,0 +1,111 @@
+
+/*------------------- LAZARD START-------------------------*/
+
+#expertise-section{
+    height: 30%;
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 0.20fr);
+    grid-template-rows: repeat(2, 0.20fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 0;
+    margin-top: 2em;
+    min-width: 75vw;
+    min-height: 300px;
+}
+  
+.grid-container .item {
+    border: 1px solid rgba(126, 125, 125, 0.3);
+    height: 100%;
+    width: 100%;
+    align-content: center;
+
+  }
+.expertise-tittle {
+    text-align: center;
+  }
+
+.expertisse-i {
+  padding-top:10px ;
+  padding-bottom: 0px;
+  padding-left:43%;
+}
+.expertise-h{
+    text-align: center;
+}
+.expertise-p{
+    text-align: center;
+    color:#858585;
+}
+.grid-container .item1 {
+    border-top: none;
+    border-left: none;
+   
+}
+.grid-container .item2 {
+    
+    border-top: none;
+    border-left: none;
+
+   
+}
+.grid-container .item3 {
+    border-top: none;
+    border-right: none;
+
+}
+.grid-container .item4 {
+    border-bottom: none;
+    border-left: none;
+
+}
+.grid-container .item5 {
+
+    border-bottom: none;
+}
+.item6 {
+    border-bottom: none;
+    border-right: none;
+}
+
+/*----------- LAZAR END -------------------------*/
+
+/*----------- VITALI "TEAM" START -------------------------*/
+
+#team-section{
+    background-image: url("images/bgk-header.png");
+    color: white;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+}
+
+.team-portraits{
+    display: flex;
+    justify-content: center;   
+}
+
+.team-portrait{
+    margin: 1%;
+    border: solid 1px;
+}
+
+#hiring p{
+    color: rgb(38, 226, 226)  
+}
+
+#hiring{
+    margin:auto;
+    border: solid 1px rgb(38, 226, 226);
+    width:fit-content;
+    padding: 0% 1% 0% 1%;
+}
+
+/*----------- VITALI "TEAM" END -------------------------*/
+    
+
