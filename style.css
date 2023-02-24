@@ -145,7 +145,46 @@
     width: 50px;
 }
 
+#div-story {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
  
+#div-story-text {
+    width: 30%;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    align-items: flex-start;
+    margin-top: 0;
+
+}
+
+#div-story-text h1 {
+    margin-top: 0;
+}
+
+#div-story-text p {
+    color: #858585;
+}
+
+#div-story-text button {
+    background-color: white; 
+    color: #46a3cc ;
+    opacity:0.6; 
+    border: 2px solid #46a3cc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
 #watch-section{
     border: solid 2px black;
     width: 100%;
