@@ -227,6 +227,13 @@
     margin-bottom: 20px;
 }
 
+.lineClass {
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 5px;
+   
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 0.20fr);
@@ -239,7 +246,7 @@
     min-height: 300px;
 }
   
-.grid-container .item {
+.item {
     border: 1px solid rgba(126, 125, 125, 0.3);
     height: 100%;
     width: 100%;
@@ -262,29 +269,29 @@
     text-align: center;
     color:#858585;
 }
-.grid-container .item1 {
+.item1 {
     border-top: none;
     border-left: none;
    
 }
-.grid-container .item2 {
+.item2 {
     
     border-top: none;
     border-left: none;
 
    
 }
-.grid-container .item3 {
+.item3 {
     border-top: none;
     border-right: none;
 
 }
-.grid-container .item4 {
+.item4 {
     border-bottom: none;
     border-left: none;
 
 }
-.grid-container .item5 {
+.item5 {
 
     border-bottom: none;
 }
