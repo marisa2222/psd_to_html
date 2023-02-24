@@ -300,11 +300,14 @@
 
 #team-section{
     background-image: url("images/bgk-header.png");
+    background-size: cover;
+  
+  
     color: white;
     margin: auto;
-    width: 80%;
     padding: 10px;
     text-align: center;
+    width: 100%
 }
 
 .team-portraits{
