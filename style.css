@@ -1,9 +1,231 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,700;1,200&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nunito, sans-serif;
+}
+
+.subscribe-container {
+    background-image: url('images/bgk-header.png');
+     justify-content: space-around;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+/* Giving a background-color to the nav container. */
+.subscribe-container nav {
+    margin: 0px 0;
+}
+
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+ .subscribe-container nav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+    }
+
+/* Positioning the navigation items inline */
+.subscribe-container nav ul li {
+    margin: 0px -7px 0 0;
+    display:inline-block;
+    }
+
+/* Styling the links */
+.subscribe-container nav a {
+    display:block;
+    padding:0 10px;
+    color:#FFF;
+    font-size:10px;
+    line-height: 60px;
+    text-decoration:none;
+}
+
+/* Background color change on Hover */
+.subscribe-container nav a:hover {
+    background-color: #493799;
+}
+
+.subscribe-container .introduce {
+    display: flex; 
+    justify-content: center;
+}
+
+.subscribe-container .subscribe2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem;
+    width:80%;
+}
+
+.subscribe-container .sidenav{
+    display: flex;
+     justify-content: space-around;
+}
+
+
+.subscribe-container h1 {
+    text-align: center;
+    color: #8b63bc;
+    font-weight: 500;
+    font-size: 2rem;
+    
+}
+
+.subscribe-container h2 {
+    text-align: center;
+    color: #faf9fa;
+    font-weight: 500;
+    font-size: 2rem;
+    
+}
+
+.subscribe-container h3 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+    letter-spacing: 0.3rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.subscribe-container p {
+    color: #e5e5e5;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding-left: 0.3rem;
+    
+
+}
+.subscribe-container .entry {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-container 
+.entry,
+.entry input {
+    width:100%;
+    border-color: #91caee;
+    padding: 0.5rem;
+
+}
+
+.subscribe-container .entry button {
+    color: #e5e5e5;
+    padding: 1rem;
+    width: 13%;
+    font-size:x-small;
+    color: aqua;
+    border-color: aqua;
+    background-color: transparent;
+}
+
+.subscribe-container .entry button:hover,
+.entry button:focus,
+.entry button:active {
+   
+    background-color: #e5e5e5;
+    color: #976ecc;
+
+}
+
+.subscribe-container .logo {
+    display: flex;
+    justify-content:center;
+    width: 50px;
+}
+
+#div-story {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+ 
+#div-story-text {
+    width: 30%;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    align-items: flex-start;
+    margin-top: 0;
+
+}
+
+#div-story-text h1 {
+    margin-top: 0;
+}
+
+#div-story-text p {
+    color: #858585;
+}
+
+#div-story-text button {
+    background-color: white; 
+    color: #46a3cc ;
+    opacity:0.6; 
+    border: 2px solid #46a3cc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#watch-section{
+    border: solid 2px black;
+    width: 100%;
+    height: 550px;
+
+    background-image: url('images/bgk-middle.png');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% 100%;
+}
+
+#watch-section img {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top :37%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#watch-section h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 57%;;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+/*------------------- LAZARD START-------------------------*/
+
 #expertise-section{
    
     height: 30%;
     width: 100%;
-   
+    margin-top:20px;
+    margin-bottom: 20px;
 }
 
 .grid {
@@ -18,7 +240,7 @@
     min-height: 300px;
 }
   
-.item {
+.grid-container .item {
     border: 1px solid rgba(126, 125, 125, 0.3);
     height: 100%;
     width: 100%;
@@ -41,33 +263,72 @@
     text-align: center;
     color:#858585;
 }
-.item1 {
+.grid-container .item1 {
     border-top: none;
     border-left: none;
    
 }
-.item2 {
+.grid-container .item2 {
     
     border-top: none;
     border-left: none;
 
    
 }
-.item3 {
+.grid-container .item3 {
     border-top: none;
     border-right: none;
 
 }
-.item4 {
+.grid-container .item4 {
     border-bottom: none;
     border-left: none;
 
 }
-.item5 {
-    
+.grid-container .item5 {
+
     border-bottom: none;
 }
 .item6 {
     border-bottom: none;
     border-right: none;
 }
+
+/*----------- LAZAR END -------------------------*/
+
+/*----------- VITALI "TEAM" START -------------------------*/
+
+#team-section{
+    background-image: url("images/bgk-header.png");
+    color: white;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+}
+
+.team-portraits{
+    display: flex;
+    justify-content: center;   
+}
+
+.team-portrait{
+    margin: 1%;
+    border: solid 1px;
+}
+
+#hiring p{
+    color: rgb(38, 226, 226)  
+}
+
+#hiring{
+    margin:auto;
+    border: solid 1px rgb(38, 226, 226);
+    width:fit-content;
+    padding: 0% 1% 0% 1%;
+}
+
+/*----------- VITALI "TEAM" END -------------------------*/
+    
+
+
