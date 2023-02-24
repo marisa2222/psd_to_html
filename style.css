@@ -1,4 +1,149 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,700;1,200&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nunito, sans-serif;
+}
+
+.subscribe-container {
+    background-image: url('images/bgk-header.png');
+     justify-content: space-around;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+/* Giving a background-color to the nav container. */
+.subscribe-container nav {
+    margin: 0px 0;
+}
+
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+ .subscribe-container nav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+    }
+
+/* Positioning the navigation items inline */
+.subscribe-container nav ul li {
+    margin: 0px -7px 0 0;
+    display:inline-block;
+    }
+
+/* Styling the links */
+.subscribe-container nav a {
+    display:block;
+    padding:0 10px;
+    color:#FFF;
+    font-size:10px;
+    line-height: 60px;
+    text-decoration:none;
+}
+
+/* Background color change on Hover */
+.subscribe-container nav a:hover {
+    background-color: #493799;
+}
+
+.subscribe-container .introduce {
+    display: flex; 
+    justify-content: center;
+}
+
+.subscribe-container .subscribe2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem;
+    width:80%;
+}
+
+.subscribe-container .sidenav{
+    display: flex;
+     justify-content: space-around;
+}
+
+
+.subscribe-container h1 {
+    text-align: center;
+    color: #8b63bc;
+    font-weight: 500;
+    font-size: 2rem;
+    
+}
+
+.subscribe-container h2 {
+    text-align: center;
+    color: #faf9fa;
+    font-weight: 500;
+    font-size: 2rem;
+    
+}
+
+.subscribe-container h3 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+    letter-spacing: 0.3rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.subscribe-container p {
+    color: #e5e5e5;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding-left: 0.3rem;
+    
+
+}
+.subscribe-container .entry {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-container 
+.entry,
+.entry input {
+    width:100%;
+    border-color: #91caee;
+    padding: 0.5rem;
+
+}
+
+.subscribe-container .entry button {
+    color: #e5e5e5;
+    padding: 1rem;
+    width: 13%;
+    font-size:x-small;
+    color: aqua;
+    border-color: aqua;
+    background-color: transparent;
+}
+
+.subscribe-container .entry button:hover,
+.entry button:focus,
+.entry button:active {
+   
+    background-color: #e5e5e5;
+    color: #976ecc;
+
+}
+
+.subscribe-container .logo {
+    display: flex;
+    justify-content:center;
+    width: 50px;
+}
 
 #div-story {
     
@@ -45,7 +190,7 @@
     width: 100%;
     height: 550px;
 
-    background-image: url('./images/bgk-middle.png');
+    background-image: url('images/bgk-middle.png');
     background-repeat: no-repeat;
     position: relative;
     background-size: 100% 100%;
@@ -182,4 +327,5 @@
 
 /*----------- VITALI "TEAM" END -------------------------*/
     
+
 
